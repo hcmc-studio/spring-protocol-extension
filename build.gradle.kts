@@ -1,8 +1,6 @@
 plugins {
     kotlin("jvm") version "1.9.0"
     kotlin("plugin.spring") version "1.9.0"
-    id("org.springframework.boot") version "3.1.2"
-    id("io.spring.dependency-management") version "1.1.2"
     id("maven-publish")
 }
 
@@ -32,5 +30,5 @@ publishing {
 dependencies {
     implementation("com.github.hcmc-studio:kotlin-protocol-extension:0.0.4-build-02")
 
-    implementation("org.springframework.data:spring-data-commons")
+    implementation("org.springframework.data:spring-data-commons:3.1.2")
 }
